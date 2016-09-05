@@ -1,6 +1,7 @@
 $(function() {
 	/*返回顶部按钮*/
 	/*距离顶部80高度显示*/
+	$("#btn-back-to-top").hide();
 	$(window).scroll(function() {
 		if ($(window).scrollTop() > 80) {
 			$("#btn-back-to-top").stop(false,false).fadeIn(500);
