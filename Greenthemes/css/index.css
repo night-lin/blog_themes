@@ -1,0 +1,23 @@
+/*常用字体类型*/
+body{
+		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-size: 14px;
+	  	line-height: 1.428571429;
+	  	color: #333333;
+	  	background-color: #ffffff;
+ }
+h1,h2,h3,h4,h5,h6{font-weight: 500;}
+/*表格交替背景色用js实现*/
+.tr_2n{background-color: #f9f9f9;}
+/*基本链接设置*/
+a:hover,
+a:focus {
+  color: #2a6496;
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}

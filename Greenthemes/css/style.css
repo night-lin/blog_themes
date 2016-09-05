@@ -1,0 +1,258 @@
+body{
+	font-family: "微软雅黑";
+}
+.themeGreen-nav {
+	padding: 30px 0 10px 0;
+	font-family: "微软雅黑";
+}
+.themeGreen-nav .navbar-default{
+	border: 0;
+	background: none;
+}
+.themeGreen-nav .navbar-brand{
+	padding: 0;
+}
+/*巨幕*/
+.themeGreen-jumbotron .jumbotron{
+	background: url(../images/jumbotron.png);
+	height: 300px;
+	color: #fff;
+	margin:0;
+}
+/*导航高亮*/
+.themeGreen-nav .navbar-default .navbar-nav a{
+	padding: 15px 20px;
+}
+.themeGreen-nav .navbar-default .navbar-nav > .active > a{
+	color: #ffffff;
+	border-radius: 4px;
+    /*background-color: #22ceb3;*/
+
+    
+    /*浅灰色*/
+    background-color: #82d4c7;
+    
+}
+.themeGreen-content{
+	background: #fafafa;
+}
+/*article-list*/
+.article-list{
+	margin: 20px 0;
+}
+.article{
+	padding: 0 20px;
+	background: #fff;
+	border-radius: 4px;
+	overflow: hidden;
+	margin-bottom:10px; 
+}
+.article h3,.article p{
+	color:#333;
+}
+.article img{
+	float: left;
+	border-radius: 3px;
+	margin-right:10px; 
+}
+
+/*文章信息*/
+.article-info{
+	margin: 15px 0 20px 0;
+
+}
+.article-info span{
+	color: #7c7c7c;
+	margin-right:15px; 
+}
+.article-info i{
+	color: #7c7c7c;
+}
+.article-info .article-tag{
+	background: #ff7171;
+	padding: 2px 5px;
+	color:#fff;
+}
+.article-info .article-author{
+
+}
+.article-info .article-date{
+
+}
+.btn-area{
+	border-top:solid 1px #e7e7e7;
+	margin: 10px 0;
+	padding-top: 10px;
+
+	
+}
+/*文章赞数*/
+.agree-nums{
+	color:#82d4c7;
+	border: 1px solid #82d4c7;
+	padding: 5px 10px;
+	border-radius: 3px;
+	float: left;
+}
+.agree-nums i{
+	margin-right:8px; 
+}
+/*按钮样式-填充*/
+.btn-read{
+	background: #3cd7bf;
+	float: right;
+	color: #fff;
+}
+.btn-read:link,.btn-read:visited{
+	color:#fff;
+	padding: 6px 10px;
+	border-radius: 4px;
+}
+.btn-read:hover,.btn-read:active{
+	color:#fff;
+}
+
+/*按钮样式-描边*/
+.btn-read-line:link,.btn-read-line:visited{
+	background: #fff;
+	border-radius: 2px;
+	border:solid 1px #38c1ab;
+	padding: 6px 10px;
+	float: right;
+	color: #35ccb4;
+	text-decoration: none;
+}
+.btn-read-line:hover,.btn-read-line:active{
+	background-color: #35ccb4;
+	color:#fff;
+	
+}
+/*侧边栏*/
+
+/*搜索框*/
+.search-area{
+	margin-top: 20px;
+}
+.btn-search{
+	color: #fff;
+	background-color: #23b19c;
+}
+.btn-search:hover{
+	color: #fff;
+	background-color: #2fbba5;
+}
+.btn-search:focus{
+	color: #fff;
+}
+/*面板*/
+.panel-list{
+	margin-top:20px; 
+}
+.panel-ul {
+	list-style: none;
+	padding: 0;
+}
+
+.panel-latest-article{
+	border-color:#e7e7e7;
+}
+.latest-article-list li{
+
+	padding: 5px 0;
+	border-bottom: dotted 1px #ccc;
+}
+.latest-article-list a{
+	color: #333;
+}
+.panel-latest-article .panel-heading{
+	border-color:#e7e7e7;
+	color:#333;
+	background-color: #ccc;
+}
+.latest-article-list{
+	
+
+}
+/*无边框样式面板*/
+.panel-commen{
+	border: none;
+	
+}
+
+.panel-commen .panel-heading{
+	border: none;
+	background: none;
+}
+.panel-commen .panel-title{
+	padding:4px 2px;
+	border-bottom:2px solid #23b19c; 
+}
+/*评论面板*/
+.comment-user{
+	margin: 10px 0;
+	color:#23b19c;
+	
+}
+.latest-comment-list li{
+	border-bottom: solid 1px #ccc;
+}
+.latest-comment-list li i{
+	color:#23b19c;
+}
+/*标签面板*/
+.tags-list{
+
+}
+.panel-tags .tag:link, .panel-tags .tag:visited{
+	margin-bottom: 10px;
+	float: left;
+	margin-right: 6px;
+	/*border-radius: 2px;*/
+	/*background-color:#c3f1ea;*/
+	color: #23b19c;
+	padding: 2px 8px;
+	border: 1px solid #23b19c;
+}
+.panel-tags .tag:hover,.panel-tags .tag:active{
+	text-decoration: none;
+	background-color:#c3f1ea;
+}
+.panel-tags .tag:focus{
+	text-decoration: none;
+
+}
+/*友情连接*/
+.connect-list li{
+	border-bottom: 1px dotted #ccc;
+	padding: 0 0 10px 0; 
+}
+/*页脚*/
+.themeGreen-footer .container{
+	padding: 20px 0;
+	border-top:solid 1px #ccc;
+	text-align: center;
+	color: #333;
+}
+/*返回顶部按钮*/
+.themeGreen-back{
+	position: fixed;
+	right: 20px;
+	bottom:20px; 
+}
+.themeGreen-back i{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	margin:-8px 0 0 -8px;
+	color: #fff;
+	font-size: 16px;
+}
+a.back-to-top:link,a.back-to-top:visited{
+	position: relative;
+	color: #fff;
+	display: inline-block;
+	width:50px;
+	height: 50px;
+	border-radius: 4px;
+	background-color: #f35f5f;
+}
