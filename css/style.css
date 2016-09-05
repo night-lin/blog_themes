@@ -12,6 +12,23 @@ body{
 .themeGreen-nav .navbar-brand{
 	padding: 0;
 }
+.themeGreen-nav .navbar-default .navbar-nav > li > a:link,.themeGreen-nav .navbar-default .navbar-nav > li > a:visited {
+	
+    border:solid 1px #fff;
+    border-radius: 4px;
+  
+}
+.themeGreen-nav .navbar-default .navbar-nav > li > a:hover,.themeGreen-nav .navbar-default .navbar-nav > li > a:focus {
+	background: #fff;
+    border:solid 1px #82d4c7;
+    color: #82d4c7;
+}
+/* @media (min-width: 768px){
+	.themeGreen-nav .navbar-nav > li {
+    margin-right:10px;
+	}
+} */
+
 /*巨幕*/
 .themeGreen-jumbotron .jumbotron{
 	background: url(../images/jumbotron.png);
