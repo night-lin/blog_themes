@@ -30,5 +30,7 @@
         })();
     </script>
     <!-- 多说公共JS代码 end -->
+
+    <?php $this->footer(); ?>
     </body>
 </html>

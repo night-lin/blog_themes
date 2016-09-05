@@ -40,19 +40,18 @@ $this->need('header.php');
                     
                 </div>
                 <!-- 分页按钮 -->
+
                 <div class="page-nav">
                     <nav>
-                      <ul class="pagination">
-                        <li><a href="#">&laquo;</a></li>
-                        <li><a href="#">1</a></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#">4</a></li>
-                        <li><a href="#">5</a></li>
-                        <li><a href="#">...</a></li>
-                        <li><a href="#">33</a></li>
-                        <li><a href="#">&raquo;</a></li>
-                      </ul>
+                        <?php $this->pageNav('&laquo; 前一页', '后一页 &raquo;', 1, '...', array(
+                            'itemTag'       =>  'li',
+                            'textTag'       =>  'span',
+                            'currentClass'  =>  'current',
+                            'prevClass'     =>  'prev',
+                            'nextClass'     =>  'next',
+                            'wrapTag'       =>  'ul',
+                            'wrapClass'     =>  'pagination'
+                        )); ?>
                     </nav>
                 </div>
             </div>
