@@ -19,7 +19,7 @@ $this->need('header.php');
                     <!-- 文章块 -->
                     <?php while($this->next()): ?>
                         <div class="article">
-                            <h3><?php $this->title() ?></h3>
+                            <a href="<?php $this->permalink() ?>"><h3><?php $this->title() ?></h3></a>
                             <div class="article-info">
                                 <span class="article-tag"><?php $this->category(','); ?></span>
                                 <i class="glyphicon glyphicon-user"></i>
@@ -37,7 +37,23 @@ $this->need('header.php');
                             </div>
                         </div>
                     <?php endwhile; ?>
-
+                    
+                </div>
+                <!-- 分页按钮 -->
+                <div class="page-nav">
+                    <nav>
+                      <ul class="pagination">
+                        <li><a href="#">&laquo;</a></li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">...</a></li>
+                        <li><a href="#">33</a></li>
+                        <li><a href="#">&raquo;</a></li>
+                      </ul>
+                    </nav>
                 </div>
             </div>
             <!-- 侧边栏 -->

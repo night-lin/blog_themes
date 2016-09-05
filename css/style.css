@@ -36,6 +36,15 @@ body{
 .themeGreen-content{
 	background: #fafafa;
 }
+
+/*分页按钮*/
+.page-nav{
+	text-align: center;
+}
+.page-nav .pagination > li > a,.page-nav .pagination > li > span{
+	color:#35ccb4;
+	/*border: 1px solid #82d4c7;*/
+}
 /*article-list*/
 .article-list{
 	margin: 20px 0;
@@ -51,7 +60,7 @@ body{
 	color:#333;
 }
 .article img{
-	float: left;
+	
 	border-radius: 3px;
 	margin-right:10px; 
 }
@@ -72,6 +81,9 @@ body{
 	background: #ff7171;
 	padding: 2px 5px;
 	color:#fff;
+}
+.article-tag a{
+	color: #fff;
 }
 .article-info .article-author{
 
