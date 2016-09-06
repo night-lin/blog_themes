@@ -6,7 +6,6 @@
             <div class="col-md-9" role = "main">
                 <div class="article-list">
                     <!-- 文章块 -->
-                    <?php while($this->next()): ?>
                         <div class="article">
                             <a href="<?php $this->permalink() ?>"><h3><?php $this->title() ?></h3></a>
                             <div class="article-info">
@@ -20,7 +19,6 @@
                                 <?php $this->content(); ?>
                             </div>
                         </div>
-                    <?php endwhile; ?>
                 </div>
                 <?php $this->need('comments.php'); ?>
             </div>

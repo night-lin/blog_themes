@@ -46,7 +46,7 @@ $this->need('header.php');
                         <?php $this->pageNav('&laquo; 前一页', '后一页 &raquo;', 1, '...', array(
                             'itemTag'       =>  'li',
                             'textTag'       =>  'span',
-                            'currentClass'  =>  'current',
+                            'currentClass'  =>  'disabled',
                             'prevClass'     =>  'prev',
                             'nextClass'     =>  'next',
                             'wrapTag'       =>  'ul',
