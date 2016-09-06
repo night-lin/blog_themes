@@ -332,7 +332,7 @@ a.back-to-top:link,a.back-to-top:visited{
 	
 	max-height: 400px;
 }
-.article-post h1,.article-info{
+.article-title h1,.article-info{
 	text-align: center;
 }
 .article-post blockquote{
@@ -342,5 +342,5 @@ a.back-to-top:link,a.back-to-top:visited{
 	font-style: italic;
 }
 .article-post pre{
-	max-height: 200px;
+	max-height: 400px;
 }
