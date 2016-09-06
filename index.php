@@ -19,11 +19,11 @@ $this->need('header.php');
                     <!-- 文章块 -->
                     <?php while($this->next()): ?>
                         <div class="article">
-                            <a href="<?php $this->permalink() ?>"><h3><?php $this->title() ?></h3></a>
+                            <a class="article-title" href="<?php $this->permalink() ?>"><h1><?php $this->title() ?></h1></a>
                             <div class="article-info">
                                 <span class="article-tag"><?php $this->category(','); ?></span>
-                                <i class="glyphicon glyphicon-user"></i>
-                                <a class="article-author" itemprop="name" href="<?php $this->author->permalink(); ?>" rel="author"><?php $this->author(); ?></a>
+                                <span><i class="glyphicon glyphicon-user"></i>
+                                <a class="article-author" itemprop="name" href="<?php $this->author->permalink(); ?>" rel="author"><?php $this->author(); ?></a></span>
                                 <i class="glyphicon glyphicon-time"></i>
                                 <span class="article-date"><?php $this->date('Y-m-d'); ?></span>
                             </div>
@@ -40,18 +40,19 @@ $this->need('header.php');
                     
                 </div>
                 <!-- 分页按钮 -->
-
                 <div class="page-nav">
                     <nav>
-                        <?php $this->pageNav('&laquo; 前一页', '后一页 &raquo;', 1, '...', array(
-                            'itemTag'       =>  'li',
-                            'textTag'       =>  'span',
-                            'currentClass'  =>  'disabled',
-                            'prevClass'     =>  'prev',
-                            'nextClass'     =>  'next',
-                            'wrapTag'       =>  'ul',
-                            'wrapClass'     =>  'pagination'
-                        )); ?>
+                      <ul class="pagination">
+                        <li><a href="#">&laquo;</a></li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">...</a></li>
+                        <li><a href="#">33</a></li>
+                        <li><a href="#">&raquo;</a></li>
+                      </ul>
                     </nav>
                 </div>
             </div>
