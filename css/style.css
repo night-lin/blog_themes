@@ -1,10 +1,10 @@
-@charset "utf-8"
+@charset "utf-8";
 body{
-	font-family: "微软雅黑";
+	font-family: "Microsoft YaHei";
 }
 .themeGreen-nav {
 	padding: 30px 0 10px 0;
-	font-family: "微软雅黑";
+	font-family: "Microsoft YaHei";
 }
 .themeGreen-nav .navbar-default{
 	border: 0;
@@ -96,12 +96,12 @@ body{
 
 /*文章信息*/
 .article-info{
-	margin: 15px 0 20px 0;
+	margin: 20px 0;
 
 }
 .article-info span{
 	color: #7c7c7c;
-	margin-right:15px; 
+	margin:0 8px;
 }
 .article-info i{
 	color: #7c7c7c;

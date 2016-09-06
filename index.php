@@ -24,8 +24,10 @@ $this->need('header.php');
                                 <span class="article-tag"><?php $this->category(','); ?></span>
                                 <span><i class="glyphicon glyphicon-user"></i>
                                 <a class="article-author" itemprop="name" href="<?php $this->author->permalink(); ?>" rel="author"><?php $this->author(); ?></a></span>
+                                <span class="article-date">
                                 <i class="glyphicon glyphicon-time"></i>
-                                <span class="article-date"><?php $this->date('Y-m-d'); ?></span>
+                                <?php $this->date('Y-m-d'); ?>
+                                </span>
                             </div>
                             <div class="article-content clearfix">
                                 <?php $this->content(); ?>
@@ -42,17 +44,15 @@ $this->need('header.php');
                 <!-- 分页按钮 -->
                 <div class="page-nav">
                     <nav>
-                      <ul class="pagination">
-                        <li><a href="#">&laquo;</a></li>
-                        <li><a href="#">1</a></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#">4</a></li>
-                        <li><a href="#">5</a></li>
-                        <li><a href="#">...</a></li>
-                        <li><a href="#">33</a></li>
-                        <li><a href="#">&raquo;</a></li>
-                      </ul>
+                        <?php $this->pageNav('&laquo; 前一页', '后一页 &raquo;', 3, '...', array(
+                            'itemTag'       =>  'li',
+                            'textTag'       =>  'span',
+                            'currentClass'  =>  'disabled',
+                            'prevClass'     =>  'prev',
+                            'nextClass'     =>  'next',
+                            'wrapTag'       =>  'ul',
+                            'wrapClass'     =>  'pagination'
+                        )); ?>
                     </nav>
                 </div>
             </div>

@@ -6,14 +6,15 @@
             <div class="col-md-9" role = "main">
                 <div class="article-list">
                     <!-- 文章块 -->
-                        <div class="article">
-                            <a href="<?php $this->permalink() ?>"><h3><?php $this->title() ?></h3></a>
+                        <div class="article-post">
+                            <h1><?php $this->title() ?></h1>
                             <div class="article-info">
-                                <span class="article-tag"><?php $this->category(','); ?></span>
-                                <i class="glyphicon glyphicon-user"></i>
-                                <a class="article-author" itemprop="name" href="<?php $this->author->permalink(); ?>" rel="author"><?php $this->author(); ?></a>
-                                <i class="glyphicon glyphicon-time"></i>
-                                <span class="article-date"><?php $this->date('Y-m-d'); ?></span>
+                                <span>
+                                    <i class="glyphicon glyphicon-user"></i>
+                                    <a class="article-author" itemprop="name" href="<?php $this->author->permalink(); ?>" rel="author"><?php $this->author(); ?></a>
+
+                                </span>
+                                <span class="article-date"><i class="glyphicon glyphicon-time"></i> <?php $this->date('Y-m-d'); ?></span>
                             </div>
                             <div class="article-content clearfix">
                                 <?php $this->content(); ?>
