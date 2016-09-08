@@ -7,7 +7,7 @@
                 <div class="article-list">
                     <!-- 文章块 -->
                     <div class="article-post">
-                        <h1><?php $this->title() ?></h1>
+                        <h1 class="article-title-h"><?php $this->title() ?></h1>
                         <div class="article-info">
                             <span class="article-tag"><?php $this->category(','); ?></span>
                             <span>
