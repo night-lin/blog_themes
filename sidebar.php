@@ -1,11 +1,11 @@
 <div class="col-md-3 hidden-xs" role ="sider">
     <div class="search-area">
-        <form class="search-form" role="search">
+        <form class="search-form" role="search" action="./" method="post">
             <div class="input-group">
-                <input type="text" class="form-control" placeholder="输入搜索条件">
+                <input type="text" class="form-control" name="s" placeholder="输入搜索条件">
                 <span class="input-group-btn">
-										<button type="submit" class="btn btn-search">站内搜索</button>
-									</span>
+                    <button type="submit" class="btn btn-search">站内搜索</button>
+                </span>
             </div>
 
         </form>
