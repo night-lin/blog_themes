@@ -306,7 +306,7 @@ a.back-to-top:link,a.back-to-top:visited{
 
 /* 文章版权 */
 .copyright {
-	padding: 0 20px;
+	/*padding: 0 20px;*/
 	font-size: 15px;
 }
 
