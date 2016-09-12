@@ -54,7 +54,7 @@
         </div>
 
 
-
+        <?php if(class_exists('Links_Plugin') && isset($this->options->plugins['activated']['Links'])): ?>
         <div class="panel panel-connect panel-commen">
             <div class="panel-heading">
                 <!-- <i class="glyphicon glyphicon-bookmark"> </i> -->
@@ -63,10 +63,11 @@
             </div>
             <div class="panel-body">
                 <ul class="panel-ul  connect-list">
-                    <?php Links_Plugin::output('<li><a href="{url}">	<i class="glyphicon glyphicon-link"></i> {name}</a></li>', 10); ?>
+                    <?php Links_Plugin::output('<li><a href="{url}" target="_blank"><i class="glyphicon glyphicon-link"></i> {name}</a></li>', 10); ?>
                 </ul>
             </div>
         </div>
+        <?php endif; ?>
 
 
 
