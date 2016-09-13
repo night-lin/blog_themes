@@ -78,7 +78,7 @@ body{
 	margin: 20px 0;
 }
 .article{
-	padding: 0 20px;
+	padding: 10px 20px;
 	background: #fff;
 	border-radius: 4px;
 	overflow: hidden;
@@ -327,8 +327,17 @@ a.back-to-top:link,a.back-to-top:visited{
 	text-shadow: none;
 }
 /*文章详情页*/
+@media (min-width: 767px) {
+	.article-post{
+		padding: 30px 100px;
+	}
+}
+@media (max-width: 767px) {
+	.article-post{
+		padding: 10px 20px;
+	}
+}
 .article-post{
-	padding: 30px 100px;
     background: #fff;
     border-radius: 4px;
     overflow: hidden;
