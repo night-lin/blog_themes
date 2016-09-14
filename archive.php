@@ -21,7 +21,6 @@
                                 <?php $this->content(); ?>
                             </div>
                             <div class="btn-area clearfix">
-                                <span class="agree-nums"><i class="glyphicon glyphicon-heart"></i>2</span>
                                 <a class="btn-read-line" href="<?php $this->permalink() ?>">阅读全文</a>
 
                             </div>
