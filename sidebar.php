@@ -63,7 +63,7 @@
             </div>
             <div class="panel-body">
                 <ul class="panel-ul  connect-list">
-                    <?php Links_Plugin::output('<li><a href="{url}" target="_blank"><i class="glyphicon glyphicon-link"></i> {name}</a></li>', 10); ?>
+                    <?php Links_Plugin::output('<li><a href="{url}" target="_blank"><i class="glyphicon glyphicon-link"></i> {name}</a></li>', 10, NULL, true); ?>
                 </ul>
             </div>
         </div>
