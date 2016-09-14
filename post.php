@@ -26,7 +26,12 @@
                                 <div role="alert" class="alert">本文由 <a href="<?php $this->author->permalink(); ?>"><?php $this->author(); ?></a> 创作，采用 <a rel="external nofollow" href="http://creativecommons.org/licenses/by/3.0/cn" target="_blank">知识共享署名 3.0</a> 中国大陆许可协议 进行许可。 <br>可自由转载、引用，但需署名作者且注明文章出处。</div>
                             </div>
                         <?php endif; ?>
+                        <div class="support-author">
+                            <p>如果对您有用，您的支持将鼓励我继续创作！</p>
+                            <button class="btn btn-success" type="button" data-toggle="modal" data-target="#pay-modal">￥ 打赏</button>
+                        </div>
                     </div>
+
 
                 </div>
                 <?php $this->need('comments.php'); ?>
@@ -35,5 +40,6 @@
             <?php $this->need('sidebar.php'); ?>
         </div>
     </div>
+    <?php $this->need('reward.php'); ?>
 </div>
 <?php $this->need('footer.php'); ?>
