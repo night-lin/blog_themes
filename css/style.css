@@ -307,7 +307,13 @@ a.back-to-top:link,a.back-to-top:visited{
 /* 文章版权 */
 .copyright {
 	/*padding: 0 20px;*/
-	font-size: 15px;
+	font-size: 14px;
+	margin-top: 15px;
+	border-top: 1px solid #ccc;
+}
+
+.copyright .article-license {
+	padding: 15px 0;
 }
 
 .copyright .alert {
@@ -320,7 +326,6 @@ a.back-to-top:link,a.back-to-top:visited{
 }
 .copyright a {
 	color: green;
-	font-weight: 700;
 }
 .copyright a:hover {
 	text-decoration: underline;
@@ -381,10 +386,11 @@ a.back-to-top:link,a.back-to-top:visited{
 .support-author {
 	background-color: #dff0d8;
 	border-left: 4px solid green;
-	padding: 20px;
+	padding: 18px;
 }
 .support-author p{
 	font-size: 17px;
 	font-weight: bold;
 	margin: 0 auto 10px;
+	color: #3c763d;
 }
