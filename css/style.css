@@ -394,3 +394,14 @@ a.back-to-top:link,a.back-to-top:visited{
 	margin: 0 auto 10px;
 	color: #3c763d;
 }
+
+#pay-modal p img {
+	width: 100%;
+	border-radius: 12px;
+}
+@media (min-width: 600px) {
+	#pay-modal .modal-dialog {
+		width: 360px;
+		margin: 30px auto;
+	}
+}

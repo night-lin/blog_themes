@@ -33,7 +33,7 @@
                             </div>
                         <?php endif; ?>
                         <div class="support-author">
-                            <p>如果对您有用，您的支持将鼓励我继续创作！</p>
+                            <p><?php echo reward_words(); ?></p>
                             <button class="btn btn-success" type="button" data-toggle="modal" data-target="#pay-modal">￥ 打赏</button>
                         </div>
                     </div>
