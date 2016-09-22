@@ -32,10 +32,10 @@
                                 </div>
                             </div>
                         <?php endif; ?>
-                        <div class="support-author">
-                            <p><?php echo reward_words(); ?></p>
-                            <button class="btn btn-success" type="button" data-toggle="modal" data-target="#pay-modal">￥ 打赏</button>
-                        </div>
+                        <?php if(class_exists('Reward_Plugin') && isset($this->options->plugins['activated']['Reward'])): ?>
+                            <?php Reward_Plugin::show_reward(); ?>
+                            <?php Reward_Plugin::show_modal(); ?>
+                        <?php endif; ?>
                     </div>
 
 
@@ -46,6 +46,5 @@
             <?php $this->need('sidebar.php'); ?>
         </div>
     </div>
-    <?php $this->need('reward.php'); ?>
 </div>
 <?php $this->need('footer.php'); ?>

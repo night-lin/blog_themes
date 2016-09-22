@@ -381,27 +381,3 @@ a.back-to-top:link,a.back-to-top:visited{
 .article-post pre{
 	max-height: 400px;
 }
-
-/* 打赏 */
-.support-author {
-	background-color: #dff0d8;
-	border-left: 4px solid green;
-	padding: 18px;
-}
-.support-author p{
-	font-size: 17px;
-	font-weight: bold;
-	margin: 0 auto 10px;
-	color: #3c763d;
-}
-
-#pay-modal p img {
-	width: 100%;
-	border-radius: 12px;
-}
-@media (min-width: 600px) {
-	#pay-modal .modal-dialog {
-		width: 360px;
-		margin: 30px auto;
-	}
-}
