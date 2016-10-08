@@ -52,6 +52,9 @@
                 </div>
             </div>
         </div>
+        
+            <script type="text/javascript">var jd_union_unid="1000075724",jd_ad_ids="520:6",jd_union_pid="CKOWrJ76KhDM4+/cAxoAIL3khOYBKgA=";var jd_width=250;var jd_height=250;var jd_union_euid="";var p="BxACURpcFQcRNwpfBkgyTUMIRmtKRk9aZV8ETVxNNwpfBkgyUmMreDhvfFBiMEMkcwsSTiFAXEFERAtZK14XBxsEVxpfFTISBlQaWhMGFARQK2tKRk9aZVA1FDJNQwhGaxUHFANdGFsTBBYFXRxrFDIiNw%3D%3D";</script><script type="text/javascript" charset="utf-8" src="//u.x.jd.com/static/js/auto.js"></script>
+
 
 
         <?php if(class_exists('Links_Plugin') && isset($this->options->plugins['activated']['Links'])): ?>
