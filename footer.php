@@ -9,6 +9,15 @@
                 var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
                 document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Ffb82a04cc28d2e2a378835c0caecfa3e' type='text/javascript'%3E%3C/script%3E"));
             </script>
+            <script>
+                var _hmt = _hmt || [];
+                (function() {
+                    var hm = document.createElement("script");
+                    hm.src = "//hm.baidu.com/hm.js?005464a7fb2b9c59f55bad8bbd58d0ee";
+                    var s = document.getElementsByTagName("script")[0];
+                    s.parentNode.insertBefore(hm, s);
+                })();
+            </script>
             <!-- 百度统计 end -->
         </div>
 
