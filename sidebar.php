@@ -68,6 +68,17 @@
             </div>
         </div>
         <?php endif; ?>
+        <script type="text/javascript">
+            document.write('<a style="display:none!important" id="tanx-a-mm_117570917_17204454_63488759"></a>');
+            tanx_s = document.createElement("script");
+            tanx_s.type = "text/javascript";
+            tanx_s.charset = "gbk";
+            tanx_s.id = "tanx-s-mm_117570917_17204454_63488759";
+            tanx_s.async = true;
+            tanx_s.src = "//p.tanx.com/ex?i=mm_117570917_17204454_63488759";
+            tanx_h = document.getElementsByTagName("head")[0];
+            if(tanx_h)tanx_h.insertBefore(tanx_s,tanx_h.firstChild);
+        </script>
 
 
 
