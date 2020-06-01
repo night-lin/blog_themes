@@ -1,4 +1,4 @@
-<div class="col-md-3 hidden-xs" role ="sider">
+<?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?><div class="col-md-3 hidden-xs" role ="sider">
     <div class="search-area">
         <form class="search-form" role="search" action="./" method="post">
             <div class="input-group">

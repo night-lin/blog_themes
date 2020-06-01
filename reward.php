@@ -1,4 +1,4 @@
-<div class="modal fade" id="pay-modal">
+<?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?><div class="modal fade" id="pay-modal">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">

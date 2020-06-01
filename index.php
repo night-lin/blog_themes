@@ -1,4 +1,4 @@
-<?php
+<?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?><?php
 /**
  * 这是 蛋总 定制的主题
  *
